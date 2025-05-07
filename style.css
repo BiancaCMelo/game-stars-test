@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  background: black;
+  color: lime;
+}
+
+canvas {
+  display: block;
+}
+
+#controls {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+button {
+  background-color: black;
+  color: lime;
+  border: 1px solid lime;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: lime;
+  color: black;
+}
